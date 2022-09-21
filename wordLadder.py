@@ -19,7 +19,7 @@ class Solution:
 		res = 1
 
 		while q:
-			for i in range(q):
+			for i in range(len(q)):
 				word = q.popleft()
 				if word == endWord:
 					return res
